@@ -1,0 +1,51 @@
+{
+	"info": {
+		"_postman_id": "9357fce4-272e-48ee-8b1d-03dd88c22651",
+		"name": "ValidatorStatus",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "ValidatorShopping",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8007/ValidatorShopping/Data/status/APROBADO",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8007",
+					"path": [
+						"ValidatorShopping",
+						"Data",
+						"status",
+						"APROBADO"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAll",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8007/ValidatorShopping/getall",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8007",
+					"path": [
+						"ValidatorShopping",
+						"getall"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
